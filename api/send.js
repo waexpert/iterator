@@ -1,7 +1,7 @@
 const https = require("https");
 const http = require("http");
 
-const DELAY_MS = parseInt(process.env.DELAY_MS || "500", 10);
+const DELAY_MS = parseInt(process.env.DELAY_MS || "250", 10);
 
 function postItem(targetUrl, item, index) {
   return new Promise((resolve, reject) => {
