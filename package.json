@@ -1,0 +1,9 @@
+{
+  "name": "automatisch-iterator",
+  "version": "1.0.0",
+  "description": "Vercel serverless — receives array + HMAC hash, verifies, iterates and forwards each item to the webhook",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "license": "MIT"
+}
